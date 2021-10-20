@@ -1,0 +1,15 @@
+{
+  "name": "spider",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/superagent": "^4.1.13",
+    "prettier": "^2.4.1",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "superagent": "^6.1.0"
+  }
+}
