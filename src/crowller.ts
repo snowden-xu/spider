@@ -58,6 +58,7 @@ class Crawler {
     const courseInfo = this.getCourseInfo(html);
     const fileContent = this.generateJsonContent(courseInfo);
     fs.writeFileSync(filePath, JSON.stringify(fileContent));
+    console.log(1);
   }
 
   constructor() {
